@@ -29,26 +29,32 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          // Sfondo della pagina (Light Mode)
+          light: "#ffffff", // Sfondo principale: Bianco puro
+          lightgray: "#f0f0f0", // Sfondo Sidebar/Box: Grigio molto chiaro
+          gray: "#c2c2c2", // Linee/Bordi: Grigio medio
+          // Testo (Light Mode)
+          darkgray: "#3d3d3d", // Testo Headers/Accenti: Grigio scuro
+          dark: "#1a1a1a", // Testo principale: Nero quasi puro
+          // Accenti Rossi (Light Mode)
+          secondary: "#dc2626", // Link/Accenti: Rosso Intenso (simil-Shadcn Red 600)
+          tertiary: "#f87171", // Link secondari/Hover: Rosso Chiaro (simil-Shadcn Red 400)
+          highlight: "rgba(220, 38, 38, 0.1)", // Sfondo di evidenziazione leggero
+          textHighlight: "#fef08a", // Evidenziazione testo (giallo chiaro, Hex con trasparenza per i blocchi di testo)
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          // Sfondo della pagina (Dark Mode)
+          light: "#0a0a0a", // Sfondo principale: Quasi nero (molto scuro)
+          lightgray: "#1c1c1c", // Sfondo Sidebar/Box: Grigio scuro
+          gray: "#404040", // Linee/Bordi: Grigio medio
+          // Testo (Dark Mode)
+          darkgray: "#e5e5e5", // Testo Headers/Accenti: Grigio molto chiaro
+          dark: "#fafafa", // Testo principale: Bianco quasi puro
+          // Accenti Rossi (Dark Mode)
+          secondary: "#f87171", // Link/Accenti: Rosso Chiaro (visibilità su sfondo scuro)
+          tertiary: "#ef4444", // Link secondari/Hover: Rosso leggermente più scuro
+          highlight: "rgba(248, 113, 113, 0.15)", // Sfondo di evidenziazione (Rosso chiaro con trasparenza)
+          textHighlight: "#b3aa0288", // Evidenziazione testo (mantenuto)
         },
       },
     },
