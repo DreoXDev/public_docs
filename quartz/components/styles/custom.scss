@@ -1,0 +1,67 @@
+// quartz/styles/custom.scss
+
+:root {
+  /* ==========================================================
+     COLORS: VARIE CUSTOM SHADCN (Rosso/Grigio)
+     ========================================================== */
+
+  // ================ Colori Base (Sfondo / Testo) =================
+
+  // Tema Chiaro (Light Theme)
+  --page-theme: #ffffff; // Sfondo pagina: Bianco puro
+  --text-primary: #171717; // Testo principale: Grigio molto scuro
+  --text-secondary: #525252; // Testo secondario: Grigio medio
+  --text-tertiary: #737373; // Testo terziario: Grigio chiaro
+
+  // ================ Colori Principali (Rosso) =================
+
+  // Rosse (Basate su Radix Red 9/10 per l'accento)
+  --text-highlight: #f87171; // Evidenziazione: Rosso Chiaro/Corallo (Red 400)
+  --link-color: #ef4444; // Colore dei link: Rosso leggermente più scuro (Red 500)
+  --text-active: #b91c1c; // Link attivo/Bottone: Rosso Scuro (Red 700)
+  --outline-color: #fca5a5; // Bordo/Focus: Rosso molto chiaro
+
+  // =============== Tema Scuro (Dark Theme) =================
+
+  @media (prefers-color-scheme: dark) {
+    --page-theme: #0a0a0a; // Sfondo pagina: Nero quasi puro
+    --text-primary: #fafafa; // Testo principale: Bianco quasi puro
+    --text-secondary: #a3a3a3; // Testo secondario: Grigio chiaro
+    --text-tertiary: #737373; // Testo terziario: Grigio medio
+
+    --text-highlight: #dc2626; // Evidenziazione: Rosso Profondo (Red 600)
+    --link-color: #ef4444; // Link: Rosso (Red 500)
+    --text-active: #fca5a5; // Link attivo/Bottone: Rosso Chiaro
+    --outline-color: #dc2626; // Bordo/Focus: Rosso Profondo
+  }
+}
+
+/* ==========================================================
+   FONT: JETBRAINS MONO
+   ========================================================== */
+
+/* 1. Importa il font JetBrains Mono da Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+  /* 2. Imposta JetBrains Mono come font principale e di codice */
+  --font-text: "JetBrains Mono", sans-serif;
+  --font-title: "JetBrains Mono", sans-serif;
+  --font-code: "JetBrains Mono", monospace;
+}
+
+/* ==========================================================
+   STILE EXTRA (Opzionale: piccolo ritocco)
+   ========================================================== */
+
+/* Piccola ombreggiatura e bordi arrotondati come nello stile Shadcn */
+.popover {
+  border-radius: 0.5rem;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.search-result {
+  border-radius: 0.375rem;
+}
