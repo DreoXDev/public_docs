@@ -1,8 +1,8 @@
 #Matematica2 #EsercizioGuida
-Nel [[University Backup/Courses/Matematica 2/Vangelo Olcio|Vangelo secondo Olcio]] verso 1;1 ci dice di utilizzare Lagrange per le forme geometriche semplici (quadrati, rettangoli, triangoli) e di utilizzare la parametrizzazione per il resto.
+Nel [[Vangelo Olcio|Vangelo secondo Olcio]] verso 1;1 ci dice di utilizzare Lagrange per le forme geometriche semplici (quadrati, rettangoli, triangoli) e di utilizzare la parametrizzazione per il resto.
 Olcio è un coglione è l'esatto opposto.
 **Lagrange va usato per curve non lineari come circonferenze e parabole, mentre per dei bordi lineari è una perdita di tempo.**
-[[obsidian-vault/University/Courses/Matematica 2/Formulario Parametrizzazione e Vincoli|Formulario Parametrizzazione e Vincoli]]
+[[Formulario Parametrizzazione e Vincoli|Formulario Parametrizzazione e Vincoli]]
 ## Lagrange ($\lambda$) – Sfera
 
 > [!Question] **Consegna**  

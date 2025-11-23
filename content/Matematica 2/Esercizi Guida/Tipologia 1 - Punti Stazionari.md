@@ -1,6 +1,5 @@
 #Matematica2 #EsercizioGuida
 ## Punti stazionari e Hessiana
-
 > [!Question] **Consegna – Esercizio di esempio**  
 > Studiare i punti stazionari della funzione  
 > $$f(x,y) = x^3 - y^3 + xy$$  

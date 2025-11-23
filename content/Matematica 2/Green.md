@@ -1,3 +1,4 @@
+#Matematica2
 ### 📘 Enunciato
 
 Sia $S \subset \mathbb{R}^2$ una regione **piana, connessa, chiusa e orientata positivamente** (cioè in senso antiorario), e sia $C = \partial S$ il suo bordo.  

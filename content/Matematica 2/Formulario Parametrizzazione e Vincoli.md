@@ -1,3 +1,4 @@
+#Matematica2
 ## 1. Cerchio
 - Equazione: $(x^2+y^2=R^2)$.
 - Parametrizzazione: $(x=R\cos\theta,\ y=R\sin\theta,\ \theta\in[0,2\pi))$.
