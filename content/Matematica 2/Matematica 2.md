@@ -10,3 +10,5 @@ Esame davvero strano.
 - [[Tipologia 7 - Integrali Tripli]]
 - [[Tipologia 8 - Green]]
 - [[Tipologia 9 - Stokes]]
+# Home
+[[content/index |Home]]
